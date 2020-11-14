@@ -73,7 +73,7 @@ abstract class User implements UserInterface
 
     /**
      * Get the value of plainPassword
-     */ 
+     */
     public function getPlainPassword(): ?string
     {
         return $this->plainPassword;
@@ -83,7 +83,7 @@ abstract class User implements UserInterface
      * Set the value of plainPassword
      *
      * @return  self
-     */ 
+     */
     public function setPlainPassword(?string $plainPassword)
     {
         $this->plainPassword = $plainPassword;
@@ -93,7 +93,7 @@ abstract class User implements UserInterface
 
     /**
      * Get the value of registredDate
-     */ 
+     */
     public function getRegistredDate(): DateTimeImmutable
     {
         return $this->registredDate;
@@ -103,7 +103,7 @@ abstract class User implements UserInterface
      * Set the value of registredDate
      *
      * @return  self
-     */ 
+     */
     public function setRegistredDate(DateTimeImmutable $registredDate)
     {
         $this->registredDate = $registredDate;
@@ -113,7 +113,7 @@ abstract class User implements UserInterface
 
     /**
      * Get the value of id
-     */ 
+     */
     public function getId(): Uuid
     {
         return $this->id;
@@ -123,7 +123,7 @@ abstract class User implements UserInterface
      * Set the value of id
      *
      * @return  self
-     */ 
+     */
     public function setId(Uuid $id)
     {
         $this->id = $id;
@@ -133,7 +133,7 @@ abstract class User implements UserInterface
 
     /**
      * Get the value of firstName
-     */ 
+     */
     public function getFirstName(): string
     {
         return $this->firstName;
@@ -143,7 +143,7 @@ abstract class User implements UserInterface
      * Set the value of firstName
      *
      * @return  self
-     */ 
+     */
     public function setFirstName(string $firstName)
     {
         $this->firstName = $firstName;
@@ -153,7 +153,7 @@ abstract class User implements UserInterface
 
     /**
      * Get the value of lastName
-     */ 
+     */
     public function getLastName(): string
     {
         return $this->lastName;
@@ -163,7 +163,7 @@ abstract class User implements UserInterface
      * Set the value of lastName
      *
      * @return  self
-     */ 
+     */
     public function setLastName(string $lastName)
     {
         $this->lastName = $lastName;
@@ -173,7 +173,7 @@ abstract class User implements UserInterface
 
     /**
      * Get the value of email
-     */ 
+     */
     public function getEmail(): string
     {
         return $this->email;
@@ -183,7 +183,7 @@ abstract class User implements UserInterface
      * Set the value of email
      *
      * @return  self
-     */ 
+     */
     public function setEmail(string $email)
     {
         $this->email = $email;
@@ -193,7 +193,7 @@ abstract class User implements UserInterface
 
     /**
      * Get the value of password
-     */ 
+     */
     public function getPassword(): string
     {
         return $this->password;
@@ -203,24 +203,23 @@ abstract class User implements UserInterface
      * Set the value of password
      *
      * @return  self
-     */ 
+     */
     public function setPassword(string $password)
     {
         $this->password = $password;
 
         return $this;
     }
-   
+
     public function getSalt()
     {
-
     }
-    
+
     public function getUsername()
     {
         return $this->email;
     }
-   
+
     public function eraseCredentials()
     {
         $this->plainPassword = null;

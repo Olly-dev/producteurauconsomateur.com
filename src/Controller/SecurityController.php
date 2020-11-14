@@ -30,17 +30,16 @@ class SecurityController extends AbstractController
      * @Route("/registration/{role}", name="registration")
      */
     public function registration(
-        string $role, 
-        Request $request, 
+        string $role,
+        Request $request,
         UserPasswordEncoderInterface $userPasswordEncoder
-    ): Response
-    {
-        $user = Producer::ROLE === $role ? new Producer(): new Customer();
+    ): Response {
+        $user = Producer::ROLE === $role ? new Producer() : new Customer();
         $user->setId(Uuid::v4());
 
         $form = $this->createForm(RegistrationType::class, $user)->handleRequest($request);
 
-        if($form->isSubmitted() && $form->isValid()){
+        if ($form->isSubmitted() && $form->isValid()) {
             $user->setPassword(
                 $userPasswordEncoder->encodePassword($user, $user->getPlainPassword())
             );
