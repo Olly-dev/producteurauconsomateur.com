@@ -31,7 +31,7 @@ class RegistrationTest extends WebTestCase
          */
         $router = $client->getContainer()->get("router");
 
-        $crawler = $client->request(Request::METHOD_GET, $router->generate("registration", [
+        $crawler = $client->request(Request::METHOD_GET, $router->generate("security_registration", [
             "role" => $role
         ]));
 
