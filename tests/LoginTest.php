@@ -32,7 +32,7 @@ class LoginTest extends WebTestCase
         $router = $client->getContainer()->get("router");
 
         $crawler = $client->request(Request::METHOD_GET, $router->generate("security_login"));
-        
+
 
         $form = $crawler->filter("form[name=login]")->form([
             "email" => $email,

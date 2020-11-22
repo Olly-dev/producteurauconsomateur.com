@@ -55,13 +55,13 @@ class SecurityController extends AbstractController
         ]);
     }
 
-    /** 
+    /**
      *
      * @param AuthenticationUtils $authenticationUtils
      * @return Response
      * @Route("/login", name="security_login")
      */
-    public function login(AuthenticationUtils $authenticationUtils):Response
+    public function login(AuthenticationUtils $authenticationUtils): Response
     {
         return $this->render("ui/security/login.html.twig", [
             "last_username" => $authenticationUtils->getLastUsername(),
@@ -77,6 +77,5 @@ class SecurityController extends AbstractController
      */
     public function logout(): void
     {
-
     }
 }
