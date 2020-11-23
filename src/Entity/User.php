@@ -8,6 +8,7 @@ use DateTimeImmutable;
 use Symfony\Component\Uid\Uuid;
 use Doctrine\ORM\Mapping as ORM;
 use Symfony\Component\Validator\Constraints as Assert;
+use Doctrine\ORM\Mapping\Embedded;
 use Symfony\Bridge\Doctrine\Validator\Constraints\UniqueEntity;
 use Symfony\Component\Security\Core\User\UserInterface;
 
@@ -64,6 +65,11 @@ abstract class User implements UserInterface
     protected DateTimeImmutable $registredDate;
 
     /**
+     * @ORM\Embedded(class="ForgottenPassword")
+     */
+    protected ?ForgottenPassword $forgottenPassword;
+
+    /**
      * constructor
      */
     public function __construct()
@@ -84,7 +90,7 @@ abstract class User implements UserInterface
      *
      * @return  self
      */
-    public function setPlainPassword(?string $plainPassword)
+    public function setPlainPassword(?string $plainPassword): self
     {
         $this->plainPassword = $plainPassword;
 
@@ -104,7 +110,7 @@ abstract class User implements UserInterface
      *
      * @return  self
      */
-    public function setRegistredDate(DateTimeImmutable $registredDate)
+    public function setRegistredDate(DateTimeImmutable $registredDate): self
     {
         $this->registredDate = $registredDate;
 
@@ -124,7 +130,7 @@ abstract class User implements UserInterface
      *
      * @return  self
      */
-    public function setId(Uuid $id)
+    public function setId(Uuid $id): self
     {
         $this->id = $id;
 
@@ -144,7 +150,7 @@ abstract class User implements UserInterface
      *
      * @return  self
      */
-    public function setFirstName(string $firstName)
+    public function setFirstName(string $firstName): self
     {
         $this->firstName = $firstName;
 
@@ -164,7 +170,7 @@ abstract class User implements UserInterface
      *
      * @return  self
      */
-    public function setLastName(string $lastName)
+    public function setLastName(string $lastName): self
     {
         $this->lastName = $lastName;
 
@@ -184,7 +190,7 @@ abstract class User implements UserInterface
      *
      * @return  self
      */
-    public function setEmail(string $email)
+    public function setEmail(string $email): self
     {
         $this->email = $email;
 
@@ -204,7 +210,7 @@ abstract class User implements UserInterface
      *
      * @return  self
      */
-    public function setPassword(string $password)
+    public function setPassword(string $password): self
     {
         $this->password = $password;
 
@@ -215,13 +221,40 @@ abstract class User implements UserInterface
     {
     }
 
-    public function getUsername()
+    /**
+     *
+     * @return string
+     */
+    public function getUsername(): string
     {
         return $this->email;
     }
 
-    public function eraseCredentials()
+    public function eraseCredentials(): void
     {
         $this->plainPassword = null;
+    }
+
+    public function hasForgotHisPassword(): void
+    {
+        $this->forgottenPassword = new ForgottenPassword();
+    }
+
+
+    /**
+     *
+     * @return string
+     */
+    public function getFullName(): string
+    {
+        return sprintf("%s %s", $this->firstName, $this->lastName);
+    }
+
+    /**
+     * @return ForgottenPassword|null
+     */
+    public function getForgottenPassword(): ?ForgottenPassword
+    {
+        return $this->forgottenPassword;
     }
 }

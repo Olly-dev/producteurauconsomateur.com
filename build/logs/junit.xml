@@ -1,17 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites>
-  <testsuite name="" tests="4" assertions="4" errors="0" warnings="0" failures="0" skipped="0" time="9.721389">
-    <testsuite name="Project Test Suite" tests="4" assertions="4" errors="0" warnings="0" failures="0" skipped="0" time="9.721389">
-      <testsuite name="App\Tests\LoginTest" file="C:\Users\33605\Desktop\Adil\Wamp Server\T-Boileau\Defi_2-ProducteursAuConsommateur\producteurauconsomateur.com\tests\LoginTest.php" tests="2" assertions="2" errors="0" warnings="0" failures="0" skipped="0" time="5.440110">
-        <testsuite name="App\Tests\LoginTest::testSuccessfulLogin" tests="2" assertions="2" errors="0" warnings="0" failures="0" skipped="0" time="5.440110">
-          <testcase name="testSuccessfulLogin with data set #0" class="App\Tests\LoginTest" classname="App.Tests.LoginTest" file="C:\Users\33605\Desktop\Adil\Wamp Server\T-Boileau\Defi_2-ProducteursAuConsommateur\producteurauconsomateur.com\tests\LoginTest.php" line="25" assertions="1" time="4.661895"/>
-          <testcase name="testSuccessfulLogin with data set #1" class="App\Tests\LoginTest" classname="App.Tests.LoginTest" file="C:\Users\33605\Desktop\Adil\Wamp Server\T-Boileau\Defi_2-ProducteursAuConsommateur\producteurauconsomateur.com\tests\LoginTest.php" line="25" assertions="1" time="0.778215"/>
+  <testsuite name="" tests="6" assertions="6" errors="0" warnings="0" failures="0" skipped="0" time="10.704854">
+    <testsuite name="Project Test Suite" tests="6" assertions="6" errors="0" warnings="0" failures="0" skipped="0" time="10.704854">
+      <testsuite name="App\Tests\ForgottenPasswordTest" file="C:\Users\33605\Desktop\Adil\Wamp Server\T-Boileau\Defi_2-ProducteursAuConsommateur\producteurauconsomateur.com\tests\ForgottenPasswordTest.php" tests="2" assertions="2" errors="0" warnings="0" failures="0" skipped="0" time="6.650465">
+        <testsuite name="App\Tests\ForgottenPasswordTest::testSuccessfulForgottenPassword" tests="2" assertions="2" errors="0" warnings="0" failures="0" skipped="0" time="6.650465">
+          <testcase name="testSuccessfulForgottenPassword with data set #0" class="App\Tests\ForgottenPasswordTest" classname="App.Tests.ForgottenPasswordTest" file="C:\Users\33605\Desktop\Adil\Wamp Server\T-Boileau\Defi_2-ProducteursAuConsommateur\producteurauconsomateur.com\tests\ForgottenPasswordTest.php" line="25" assertions="1" time="6.144127"/>
+          <testcase name="testSuccessfulForgottenPassword with data set #1" class="App\Tests\ForgottenPasswordTest" classname="App.Tests.ForgottenPasswordTest" file="C:\Users\33605\Desktop\Adil\Wamp Server\T-Boileau\Defi_2-ProducteursAuConsommateur\producteurauconsomateur.com\tests\ForgottenPasswordTest.php" line="25" assertions="1" time="0.506338"/>
         </testsuite>
       </testsuite>
-      <testsuite name="App\Tests\RegistrationTest" file="C:\Users\33605\Desktop\Adil\Wamp Server\T-Boileau\Defi_2-ProducteursAuConsommateur\producteurauconsomateur.com\tests\RegistrationTest.php" tests="2" assertions="2" errors="0" warnings="0" failures="0" skipped="0" time="4.281279">
-        <testsuite name="App\Tests\RegistrationTest::testSuccessfulRegistration" tests="2" assertions="2" errors="0" warnings="0" failures="0" skipped="0" time="4.281279">
-          <testcase name="testSuccessfulRegistration with data set #0" class="App\Tests\RegistrationTest" classname="App.Tests.RegistrationTest" file="C:\Users\33605\Desktop\Adil\Wamp Server\T-Boileau\Defi_2-ProducteursAuConsommateur\producteurauconsomateur.com\tests\RegistrationTest.php" line="25" assertions="1" time="2.846029"/>
-          <testcase name="testSuccessfulRegistration with data set #1" class="App\Tests\RegistrationTest" classname="App.Tests.RegistrationTest" file="C:\Users\33605\Desktop\Adil\Wamp Server\T-Boileau\Defi_2-ProducteursAuConsommateur\producteurauconsomateur.com\tests\RegistrationTest.php" line="25" assertions="1" time="1.435250"/>
+      <testsuite name="App\Tests\LoginTest" file="C:\Users\33605\Desktop\Adil\Wamp Server\T-Boileau\Defi_2-ProducteursAuConsommateur\producteurauconsomateur.com\tests\LoginTest.php" tests="2" assertions="2" errors="0" warnings="0" failures="0" skipped="0" time="1.636392">
+        <testsuite name="App\Tests\LoginTest::testSuccessfulLogin" tests="2" assertions="2" errors="0" warnings="0" failures="0" skipped="0" time="1.636392">
+          <testcase name="testSuccessfulLogin with data set #0" class="App\Tests\LoginTest" classname="App.Tests.LoginTest" file="C:\Users\33605\Desktop\Adil\Wamp Server\T-Boileau\Defi_2-ProducteursAuConsommateur\producteurauconsomateur.com\tests\LoginTest.php" line="25" assertions="1" time="0.763621"/>
+          <testcase name="testSuccessfulLogin with data set #1" class="App\Tests\LoginTest" classname="App.Tests.LoginTest" file="C:\Users\33605\Desktop\Adil\Wamp Server\T-Boileau\Defi_2-ProducteursAuConsommateur\producteurauconsomateur.com\tests\LoginTest.php" line="25" assertions="1" time="0.872770"/>
+        </testsuite>
+      </testsuite>
+      <testsuite name="App\Tests\RegistrationTest" file="C:\Users\33605\Desktop\Adil\Wamp Server\T-Boileau\Defi_2-ProducteursAuConsommateur\producteurauconsomateur.com\tests\RegistrationTest.php" tests="2" assertions="2" errors="0" warnings="0" failures="0" skipped="0" time="2.417997">
+        <testsuite name="App\Tests\RegistrationTest::testSuccessfulRegistration" tests="2" assertions="2" errors="0" warnings="0" failures="0" skipped="0" time="2.417997">
+          <testcase name="testSuccessfulRegistration with data set #0" class="App\Tests\RegistrationTest" classname="App.Tests.RegistrationTest" file="C:\Users\33605\Desktop\Adil\Wamp Server\T-Boileau\Defi_2-ProducteursAuConsommateur\producteurauconsomateur.com\tests\RegistrationTest.php" line="25" assertions="1" time="1.324347"/>
+          <testcase name="testSuccessfulRegistration with data set #1" class="App\Tests\RegistrationTest" classname="App.Tests.RegistrationTest" file="C:\Users\33605\Desktop\Adil\Wamp Server\T-Boileau\Defi_2-ProducteursAuConsommateur\producteurauconsomateur.com\tests\RegistrationTest.php" line="25" assertions="1" time="1.093650"/>
         </testsuite>
       </testsuite>
     </testsuite>
