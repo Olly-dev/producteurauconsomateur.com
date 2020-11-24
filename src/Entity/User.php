@@ -212,6 +212,7 @@ abstract class User implements UserInterface
      */
     public function setPassword(string $password): self
     {
+        $this->forgottenPassword = null;
         $this->password = $password;
 
         return $this;
