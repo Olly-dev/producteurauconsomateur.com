@@ -1,6 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1606240876">
-  <project timestamp="1606240876">
+<coverage generated="1606416071">
+  <project timestamp="1606416071">
+    <file name="C:\Users\33605\Desktop\Adil\Wamp Server\T-Boileau\Defi_2-ProducteursAuConsommateur\producteurauconsomateur.com\src\Controller\FarmController.php">
+      <class name="App\Controller\FarmController" namespace="global">
+        <metrics complexity="3" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="9" coveredstatements="9" elements="10" coveredelements="10"/>
+      </class>
+      <line num="30" type="method" name="update" visibility="public" complexity="3" crap="3" count="1"/>
+      <line num="32" type="stmt" count="1"/>
+      <line num="33" type="stmt" count="1"/>
+      <line num="34" type="stmt" count="1"/>
+      <line num="36" type="stmt" count="1"/>
+      <line num="37" type="stmt" count="1"/>
+      <line num="38" type="stmt" count="1"/>
+      <line num="40" type="stmt" count="1"/>
+      <line num="43" type="stmt" count="1"/>
+      <line num="44" type="stmt" count="1"/>
+      <line num="47" type="stmt" count="1"/>
+      <metrics loc="46" ncloc="33" classes="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="9" coveredstatements="9" elements="10" coveredelements="10"/>
+    </file>
     <file name="C:\Users\33605\Desktop\Adil\Wamp Server\T-Boileau\Defi_2-ProducteursAuConsommateur\producteurauconsomateur.com\src\Controller\SecurityController.php">
       <class name="App\Controller\SecurityController" namespace="global">
         <metrics complexity="13" methods="5" coveredmethods="3" conditionals="0" coveredconditionals="0" statements="48" coveredstatements="46" elements="53" coveredelements="49"/>
@@ -101,23 +118,23 @@
       </class>
       <line num="21" type="method" name="getName" visibility="public" complexity="1" crap="2" count="0"/>
       <line num="23" type="stmt" count="0"/>
-      <line num="26" type="method" name="convertToPHPValue" visibility="public" complexity="5" crap="6.32" count="4"/>
-      <line num="28" type="stmt" count="4"/>
-      <line num="29" type="stmt" count="4"/>
-      <line num="32" type="stmt" count="4"/>
+      <line num="26" type="method" name="convertToPHPValue" visibility="public" complexity="5" crap="6.32" count="5"/>
+      <line num="28" type="stmt" count="5"/>
+      <line num="29" type="stmt" count="5"/>
+      <line num="32" type="stmt" count="5"/>
       <line num="33" type="stmt" count="0"/>
-      <line num="37" type="stmt" count="4"/>
+      <line num="37" type="stmt" count="5"/>
       <line num="38" type="stmt" count="0"/>
       <line num="39" type="stmt" count="0"/>
-      <line num="42" type="stmt" count="4"/>
-      <line num="45" type="method" name="convertToDatabaseValue" visibility="public" complexity="7" crap="7.10" count="4"/>
-      <line num="47" type="stmt" count="4"/>
+      <line num="42" type="stmt" count="5"/>
+      <line num="45" type="method" name="convertToDatabaseValue" visibility="public" complexity="7" crap="7.10" count="5"/>
+      <line num="47" type="stmt" count="5"/>
       <line num="48" type="stmt" count="4"/>
-      <line num="52" type="stmt" count="4"/>
+      <line num="52" type="stmt" count="5"/>
       <line num="54" type="stmt" count="2"/>
       <line num="55" type="stmt" count="2"/>
-      <line num="56" type="stmt" count="4"/>
-      <line num="59" type="stmt" count="4"/>
+      <line num="56" type="stmt" count="5"/>
+      <line num="59" type="stmt" count="5"/>
       <line num="62" type="stmt" count="0"/>
       <metrics loc="64" ncloc="60" classes="1" methods="3" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="17" coveredstatements="12" elements="20" coveredelements="12"/>
     </file>
@@ -132,6 +149,18 @@
       <line num="40" type="stmt" count="2"/>
       <metrics loc="42" ncloc="25" classes="1" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="3" coveredstatements="3" elements="5" coveredelements="5"/>
     </file>
+    <file name="C:\Users\33605\Desktop\Adil\Wamp Server\T-Boileau\Defi_2-ProducteursAuConsommateur\producteurauconsomateur.com\src\EntityListener\ProducerListener.php">
+      <class name="App\EntityListener\ProducerListener" namespace="global">
+        <metrics complexity="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="5" coveredstatements="5" elements="6" coveredelements="6"/>
+      </class>
+      <line num="23" type="method" name="prePersist" visibility="public" complexity="1" crap="1" count="1"/>
+      <line num="26" type="stmt" count="1"/>
+      <line num="27" type="stmt" count="1"/>
+      <line num="28" type="stmt" count="1"/>
+      <line num="29" type="stmt" count="1"/>
+      <line num="30" type="stmt" count="1"/>
+      <metrics loc="31" ncloc="21" classes="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="5" coveredstatements="5" elements="6" coveredelements="6"/>
+    </file>
     <file name="C:\Users\33605\Desktop\Adil\Wamp Server\T-Boileau\Defi_2-ProducteursAuConsommateur\producteurauconsomateur.com\src\Entity\Customer.php">
       <class name="App\Entity\Customer" namespace="global">
         <metrics complexity="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="1" coveredstatements="1" elements="2" coveredelements="2"/>
@@ -139,6 +168,32 @@
       <line num="18" type="method" name="getRoles" visibility="public" complexity="1" crap="1" count="1"/>
       <line num="20" type="stmt" count="1"/>
       <metrics loc="22" ncloc="17" classes="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="1" coveredstatements="1" elements="2" coveredelements="2"/>
+    </file>
+    <file name="C:\Users\33605\Desktop\Adil\Wamp Server\T-Boileau\Defi_2-ProducteursAuConsommateur\producteurauconsomateur.com\src\Entity\Farm.php">
+      <class name="App\Entity\Farm" namespace="global">
+        <metrics complexity="8" methods="8" coveredmethods="6" conditionals="0" coveredconditionals="0" statements="12" coveredstatements="10" elements="20" coveredelements="16"/>
+      </class>
+      <line num="47" type="method" name="getId" visibility="public" complexity="1" crap="2" count="0"/>
+      <line num="49" type="stmt" count="0"/>
+      <line num="56" type="method" name="setId" visibility="public" complexity="1" crap="1" count="1"/>
+      <line num="58" type="stmt" count="1"/>
+      <line num="60" type="stmt" count="1"/>
+      <line num="67" type="method" name="getName" visibility="public" complexity="1" crap="1" count="1"/>
+      <line num="69" type="stmt" count="1"/>
+      <line num="77" type="method" name="setName" visibility="public" complexity="1" crap="1" count="1"/>
+      <line num="79" type="stmt" count="1"/>
+      <line num="81" type="stmt" count="1"/>
+      <line num="88" type="method" name="getDescription" visibility="public" complexity="1" crap="1" count="1"/>
+      <line num="90" type="stmt" count="1"/>
+      <line num="97" type="method" name="setDescription" visibility="public" complexity="1" crap="1" count="1"/>
+      <line num="99" type="stmt" count="1"/>
+      <line num="101" type="stmt" count="1"/>
+      <line num="107" type="method" name="getProducer" visibility="public" complexity="1" crap="2" count="0"/>
+      <line num="109" type="stmt" count="0"/>
+      <line num="116" type="method" name="setProducer" visibility="public" complexity="1" crap="1" count="1"/>
+      <line num="118" type="stmt" count="1"/>
+      <line num="120" type="stmt" count="1"/>
+      <metrics loc="122" ncloc="69" classes="1" methods="8" coveredmethods="6" conditionals="0" coveredconditionals="0" statements="12" coveredstatements="10" elements="20" coveredelements="16"/>
     </file>
     <file name="C:\Users\33605\Desktop\Adil\Wamp Server\T-Boileau\Defi_2-ProducteursAuConsommateur\producteurauconsomateur.com\src\Entity\ForgottenPassword.php">
       <class name="App\Entity\ForgottenPassword" namespace="global">
@@ -162,15 +217,20 @@
     </file>
     <file name="C:\Users\33605\Desktop\Adil\Wamp Server\T-Boileau\Defi_2-ProducteursAuConsommateur\producteurauconsomateur.com\src\Entity\Producer.php">
       <class name="App\Entity\Producer" namespace="global">
-        <metrics complexity="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="1" coveredstatements="1" elements="2" coveredelements="2"/>
+        <metrics complexity="3" methods="3" coveredmethods="3" conditionals="0" coveredconditionals="0" statements="4" coveredstatements="4" elements="7" coveredelements="7"/>
       </class>
-      <line num="18" type="method" name="getRoles" visibility="public" complexity="1" crap="1" count="1"/>
-      <line num="20" type="stmt" count="1"/>
-      <metrics loc="22" ncloc="17" classes="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="1" coveredstatements="1" elements="2" coveredelements="2"/>
+      <line num="29" type="method" name="getRoles" visibility="public" complexity="1" crap="1" count="2"/>
+      <line num="31" type="stmt" count="2"/>
+      <line num="37" type="method" name="getFarm" visibility="public" complexity="1" crap="1" count="1"/>
+      <line num="39" type="stmt" count="1"/>
+      <line num="46" type="method" name="setFarm" visibility="public" complexity="1" crap="1" count="1"/>
+      <line num="48" type="stmt" count="1"/>
+      <line num="50" type="stmt" count="1"/>
+      <metrics loc="52" ncloc="31" classes="1" methods="3" coveredmethods="3" conditionals="0" coveredconditionals="0" statements="4" coveredstatements="4" elements="7" coveredelements="7"/>
     </file>
     <file name="C:\Users\33605\Desktop\Adil\Wamp Server\T-Boileau\Defi_2-ProducteursAuConsommateur\producteurauconsomateur.com\src\Entity\User.php">
       <class name="App\Entity\User" namespace="global">
-        <metrics complexity="21" methods="21" coveredmethods="17" conditionals="0" coveredconditionals="0" statements="32" coveredstatements="27" elements="53" coveredelements="44"/>
+        <metrics complexity="21" methods="21" coveredmethods="18" conditionals="0" coveredconditionals="0" statements="32" coveredstatements="28" elements="53" coveredelements="46"/>
       </class>
       <line num="75" type="method" name="__construct" visibility="public" complexity="1" crap="1" count="2"/>
       <line num="77" type="stmt" count="2"/>
@@ -205,16 +265,16 @@
       <line num="193" type="method" name="setEmail" visibility="public" complexity="1" crap="1" count="2"/>
       <line num="195" type="stmt" count="2"/>
       <line num="197" type="stmt" count="2"/>
-      <line num="203" type="method" name="getPassword" visibility="public" complexity="1" crap="1" count="2"/>
-      <line num="205" type="stmt" count="2"/>
+      <line num="203" type="method" name="getPassword" visibility="public" complexity="1" crap="1" count="3"/>
+      <line num="205" type="stmt" count="3"/>
       <line num="213" type="method" name="setPassword" visibility="public" complexity="1" crap="1" count="4"/>
       <line num="215" type="stmt" count="4"/>
       <line num="216" type="stmt" count="4"/>
       <line num="218" type="stmt" count="4"/>
-      <line num="221" type="method" name="getSalt" visibility="public" complexity="1" crap="1" count="6"/>
-      <line num="223" type="stmt" count="6"/>
-      <line num="229" type="method" name="getUsername" visibility="public" complexity="1" crap="2" count="0"/>
-      <line num="231" type="stmt" count="0"/>
+      <line num="221" type="method" name="getSalt" visibility="public" complexity="1" crap="1" count="7"/>
+      <line num="223" type="stmt" count="7"/>
+      <line num="229" type="method" name="getUsername" visibility="public" complexity="1" crap="1" count="1"/>
+      <line num="231" type="stmt" count="1"/>
       <line num="234" type="method" name="eraseCredentials" visibility="public" complexity="1" crap="1" count="2"/>
       <line num="236" type="stmt" count="2"/>
       <line num="237" type="stmt" count="2"/>
@@ -225,7 +285,20 @@
       <line num="251" type="stmt" count="2"/>
       <line num="257" type="method" name="getForgottenPassword" visibility="public" complexity="1" crap="1" count="2"/>
       <line num="259" type="stmt" count="2"/>
-      <metrics loc="261" ncloc="152" classes="1" methods="21" coveredmethods="17" conditionals="0" coveredconditionals="0" statements="32" coveredstatements="27" elements="53" coveredelements="44"/>
+      <metrics loc="261" ncloc="152" classes="1" methods="21" coveredmethods="18" conditionals="0" coveredconditionals="0" statements="32" coveredstatements="28" elements="53" coveredelements="46"/>
+    </file>
+    <file name="C:\Users\33605\Desktop\Adil\Wamp Server\T-Boileau\Defi_2-ProducteursAuConsommateur\producteurauconsomateur.com\src\Form\FarmType.php">
+      <class name="App\Form\FarmType" namespace="global">
+        <metrics complexity="2" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="5" coveredstatements="5" elements="7" coveredelements="7"/>
+      </class>
+      <line num="20" type="method" name="buildForm" visibility="public" complexity="1" crap="1" count="1"/>
+      <line num="23" type="stmt" count="1"/>
+      <line num="24" type="stmt" count="1"/>
+      <line num="25" type="stmt" count="1"/>
+      <line num="27" type="method" name="configureOptions" visibility="public" complexity="1" crap="1" count="1"/>
+      <line num="29" type="stmt" count="1"/>
+      <line num="30" type="stmt" count="1"/>
+      <metrics loc="31" ncloc="27" classes="1" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="5" coveredstatements="5" elements="7" coveredelements="7"/>
     </file>
     <file name="C:\Users\33605\Desktop\Adil\Wamp Server\T-Boileau\Defi_2-ProducteursAuConsommateur\producteurauconsomateur.com\src\Form\ForgottenPasswordType.php">
       <class name="App\Form\ForgottenPasswordType" namespace="global">
@@ -268,34 +341,34 @@
     </file>
     <file name="C:\Users\33605\Desktop\Adil\Wamp Server\T-Boileau\Defi_2-ProducteursAuConsommateur\producteurauconsomateur.com\src\Kernel.php">
       <class name="App\Kernel" namespace="global">
-        <metrics complexity="6" methods="2" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="15" coveredstatements="0" elements="17" coveredelements="0"/>
+        <metrics complexity="6" methods="2" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="15" coveredstatements="11" elements="17" coveredelements="11"/>
       </class>
-      <line num="14" type="method" name="configureContainer" visibility="protected" complexity="3" crap="12" count="0"/>
-      <line num="16" type="stmt" count="0"/>
-      <line num="17" type="stmt" count="0"/>
-      <line num="19" type="stmt" count="0"/>
-      <line num="20" type="stmt" count="0"/>
-      <line num="21" type="stmt" count="0"/>
+      <line num="14" type="method" name="configureContainer" visibility="protected" complexity="3" crap="3.14" count="1"/>
+      <line num="16" type="stmt" count="1"/>
+      <line num="17" type="stmt" count="1"/>
+      <line num="19" type="stmt" count="1"/>
+      <line num="20" type="stmt" count="1"/>
+      <line num="21" type="stmt" count="1"/>
       <line num="22" type="stmt" count="0"/>
       <line num="23" type="stmt" count="0"/>
-      <line num="25" type="stmt" count="0"/>
-      <line num="27" type="method" name="configureRoutes" visibility="protected" complexity="3" crap="12" count="0"/>
-      <line num="29" type="stmt" count="0"/>
-      <line num="30" type="stmt" count="0"/>
-      <line num="32" type="stmt" count="0"/>
-      <line num="33" type="stmt" count="0"/>
+      <line num="25" type="stmt" count="1"/>
+      <line num="27" type="method" name="configureRoutes" visibility="protected" complexity="3" crap="3.21" count="1"/>
+      <line num="29" type="stmt" count="1"/>
+      <line num="30" type="stmt" count="1"/>
+      <line num="32" type="stmt" count="1"/>
+      <line num="33" type="stmt" count="1"/>
       <line num="34" type="stmt" count="0"/>
       <line num="35" type="stmt" count="0"/>
-      <line num="37" type="stmt" count="0"/>
-      <metrics loc="38" ncloc="38" classes="1" methods="2" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="15" coveredstatements="0" elements="17" coveredelements="0"/>
+      <line num="37" type="stmt" count="1"/>
+      <metrics loc="38" ncloc="38" classes="1" methods="2" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="15" coveredstatements="11" elements="17" coveredelements="11"/>
     </file>
     <file name="C:\Users\33605\Desktop\Adil\Wamp Server\T-Boileau\Defi_2-ProducteursAuConsommateur\producteurauconsomateur.com\src\Repository\UserRepository.php">
       <class name="App\Repository\UserRepository" namespace="global">
         <metrics complexity="2" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="7" coveredstatements="7" elements="9" coveredelements="9"/>
       </class>
-      <line num="20" type="method" name="__construct" visibility="public" complexity="1" crap="1" count="2"/>
-      <line num="22" type="stmt" count="2"/>
-      <line num="23" type="stmt" count="2"/>
+      <line num="20" type="method" name="__construct" visibility="public" complexity="1" crap="1" count="3"/>
+      <line num="22" type="stmt" count="3"/>
+      <line num="23" type="stmt" count="3"/>
       <line num="32" type="method" name="getUserByForgottenPasswordToken" visibility="public" complexity="1" crap="1" count="2"/>
       <line num="34" type="stmt" count="2"/>
       <line num="35" type="stmt" count="2"/>
@@ -308,15 +381,15 @@
       <class name="App\Security\Guard\WebAuthenticator" namespace="global">
         <metrics complexity="11" methods="8" coveredmethods="6" conditionals="0" coveredconditionals="0" statements="26" coveredstatements="23" elements="34" coveredelements="29"/>
       </class>
-      <line num="41" type="method" name="__construct" visibility="public" complexity="1" crap="1" count="6"/>
-      <line num="47" type="stmt" count="6"/>
-      <line num="48" type="stmt" count="6"/>
-      <line num="49" type="stmt" count="6"/>
-      <line num="50" type="stmt" count="6"/>
-      <line num="51" type="stmt" count="6"/>
-      <line num="53" type="method" name="supports" visibility="public" complexity="2" crap="2" count="6"/>
-      <line num="55" type="stmt" count="6"/>
-      <line num="56" type="stmt" count="6"/>
+      <line num="41" type="method" name="__construct" visibility="public" complexity="1" crap="1" count="7"/>
+      <line num="47" type="stmt" count="7"/>
+      <line num="48" type="stmt" count="7"/>
+      <line num="49" type="stmt" count="7"/>
+      <line num="50" type="stmt" count="7"/>
+      <line num="51" type="stmt" count="7"/>
+      <line num="53" type="method" name="supports" visibility="public" complexity="2" crap="2" count="7"/>
+      <line num="55" type="stmt" count="7"/>
+      <line num="56" type="stmt" count="7"/>
       <line num="59" type="method" name="getCredentials" visibility="public" complexity="1" crap="1" count="2"/>
       <line num="62" type="stmt" count="2"/>
       <line num="63" type="stmt" count="2"/>
@@ -364,6 +437,6 @@
       <line num="40" type="stmt" count="0"/>
       <metrics loc="41" ncloc="29" classes="1" methods="2" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="6" coveredstatements="4" elements="8" coveredelements="5"/>
     </file>
-    <metrics files="17" loc="1070" ncloc="803" classes="16" methods="61" coveredmethods="41" conditionals="0" coveredconditionals="0" statements="200" coveredstatements="143" elements="261" coveredelements="184"/>
+    <metrics files="21" loc="1330" ncloc="967" classes="20" methods="75" coveredmethods="54" conditionals="0" coveredconditionals="0" statements="234" coveredstatements="187" elements="309" coveredelements="241"/>
   </project>
 </coverage>

@@ -1,24 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites>
-  <testsuite name="" tests="6" assertions="8" errors="0" warnings="0" failures="0" skipped="0" time="10.220470">
-    <testsuite name="Project Test Suite" tests="6" assertions="8" errors="0" warnings="0" failures="0" skipped="0" time="10.220470">
-      <testsuite name="App\Tests\ForgottenPasswordTest" file="C:\Users\33605\Desktop\Adil\Wamp Server\T-Boileau\Defi_2-ProducteursAuConsommateur\producteurauconsomateur.com\tests\ForgottenPasswordTest.php" tests="2" assertions="4" errors="0" warnings="0" failures="0" skipped="0" time="6.711867">
-        <testsuite name="App\Tests\ForgottenPasswordTest::testSuccessfulForgottenPassword" tests="2" assertions="4" errors="0" warnings="0" failures="0" skipped="0" time="6.711867">
-          <testcase name="testSuccessfulForgottenPassword with data set #0" class="App\Tests\ForgottenPasswordTest" classname="App.Tests.ForgottenPasswordTest" file="C:\Users\33605\Desktop\Adil\Wamp Server\T-Boileau\Defi_2-ProducteursAuConsommateur\producteurauconsomateur.com\tests\ForgottenPasswordTest.php" line="27" assertions="2" time="5.246854"/>
-          <testcase name="testSuccessfulForgottenPassword with data set #1" class="App\Tests\ForgottenPasswordTest" classname="App.Tests.ForgottenPasswordTest" file="C:\Users\33605\Desktop\Adil\Wamp Server\T-Boileau\Defi_2-ProducteursAuConsommateur\producteurauconsomateur.com\tests\ForgottenPasswordTest.php" line="27" assertions="2" time="1.465013"/>
+  <testsuite name="" tests="7" assertions="9" errors="0" warnings="0" failures="0" skipped="0" time="35.376366">
+    <testsuite name="Project Test Suite" tests="7" assertions="9" errors="0" warnings="0" failures="0" skipped="0" time="35.376366">
+      <testsuite name="App\Tests\ForgottenPasswordTest" file="C:\Users\33605\Desktop\Adil\Wamp Server\T-Boileau\Defi_2-ProducteursAuConsommateur\producteurauconsomateur.com\tests\ForgottenPasswordTest.php" tests="2" assertions="4" errors="0" warnings="0" failures="0" skipped="0" time="27.805971">
+        <testsuite name="App\Tests\ForgottenPasswordTest::testSuccessfulForgottenPassword" tests="2" assertions="4" errors="0" warnings="0" failures="0" skipped="0" time="27.805971">
+          <testcase name="testSuccessfulForgottenPassword with data set #0" class="App\Tests\ForgottenPasswordTest" classname="App.Tests.ForgottenPasswordTest" file="C:\Users\33605\Desktop\Adil\Wamp Server\T-Boileau\Defi_2-ProducteursAuConsommateur\producteurauconsomateur.com\tests\ForgottenPasswordTest.php" line="27" assertions="2" time="26.015127"/>
+          <testcase name="testSuccessfulForgottenPassword with data set #1" class="App\Tests\ForgottenPasswordTest" classname="App.Tests.ForgottenPasswordTest" file="C:\Users\33605\Desktop\Adil\Wamp Server\T-Boileau\Defi_2-ProducteursAuConsommateur\producteurauconsomateur.com\tests\ForgottenPasswordTest.php" line="27" assertions="2" time="1.790844"/>
         </testsuite>
       </testsuite>
-      <testsuite name="App\Tests\LoginTest" file="C:\Users\33605\Desktop\Adil\Wamp Server\T-Boileau\Defi_2-ProducteursAuConsommateur\producteurauconsomateur.com\tests\LoginTest.php" tests="2" assertions="2" errors="0" warnings="0" failures="0" skipped="0" time="1.385826">
-        <testsuite name="App\Tests\LoginTest::testSuccessfulLogin" tests="2" assertions="2" errors="0" warnings="0" failures="0" skipped="0" time="1.385826">
-          <testcase name="testSuccessfulLogin with data set #0" class="App\Tests\LoginTest" classname="App.Tests.LoginTest" file="C:\Users\33605\Desktop\Adil\Wamp Server\T-Boileau\Defi_2-ProducteursAuConsommateur\producteurauconsomateur.com\tests\LoginTest.php" line="25" assertions="1" time="0.671416"/>
-          <testcase name="testSuccessfulLogin with data set #1" class="App\Tests\LoginTest" classname="App.Tests.LoginTest" file="C:\Users\33605\Desktop\Adil\Wamp Server\T-Boileau\Defi_2-ProducteursAuConsommateur\producteurauconsomateur.com\tests\LoginTest.php" line="25" assertions="1" time="0.714411"/>
+      <testsuite name="App\Tests\LoginTest" file="C:\Users\33605\Desktop\Adil\Wamp Server\T-Boileau\Defi_2-ProducteursAuConsommateur\producteurauconsomateur.com\tests\LoginTest.php" tests="2" assertions="2" errors="0" warnings="0" failures="0" skipped="0" time="1.559440">
+        <testsuite name="App\Tests\LoginTest::testSuccessfulLogin" tests="2" assertions="2" errors="0" warnings="0" failures="0" skipped="0" time="1.559440">
+          <testcase name="testSuccessfulLogin with data set #0" class="App\Tests\LoginTest" classname="App.Tests.LoginTest" file="C:\Users\33605\Desktop\Adil\Wamp Server\T-Boileau\Defi_2-ProducteursAuConsommateur\producteurauconsomateur.com\tests\LoginTest.php" line="25" assertions="1" time="0.763945"/>
+          <testcase name="testSuccessfulLogin with data set #1" class="App\Tests\LoginTest" classname="App.Tests.LoginTest" file="C:\Users\33605\Desktop\Adil\Wamp Server\T-Boileau\Defi_2-ProducteursAuConsommateur\producteurauconsomateur.com\tests\LoginTest.php" line="25" assertions="1" time="0.795495"/>
         </testsuite>
       </testsuite>
-      <testsuite name="App\Tests\RegistrationTest" file="C:\Users\33605\Desktop\Adil\Wamp Server\T-Boileau\Defi_2-ProducteursAuConsommateur\producteurauconsomateur.com\tests\RegistrationTest.php" tests="2" assertions="2" errors="0" warnings="0" failures="0" skipped="0" time="2.122777">
-        <testsuite name="App\Tests\RegistrationTest::testSuccessfulRegistration" tests="2" assertions="2" errors="0" warnings="0" failures="0" skipped="0" time="2.122777">
-          <testcase name="testSuccessfulRegistration with data set #0" class="App\Tests\RegistrationTest" classname="App.Tests.RegistrationTest" file="C:\Users\33605\Desktop\Adil\Wamp Server\T-Boileau\Defi_2-ProducteursAuConsommateur\producteurauconsomateur.com\tests\RegistrationTest.php" line="25" assertions="1" time="1.128450"/>
-          <testcase name="testSuccessfulRegistration with data set #1" class="App\Tests\RegistrationTest" classname="App.Tests.RegistrationTest" file="C:\Users\33605\Desktop\Adil\Wamp Server\T-Boileau\Defi_2-ProducteursAuConsommateur\producteurauconsomateur.com\tests\RegistrationTest.php" line="25" assertions="1" time="0.994327"/>
+      <testsuite name="App\Tests\RegistrationTest" file="C:\Users\33605\Desktop\Adil\Wamp Server\T-Boileau\Defi_2-ProducteursAuConsommateur\producteurauconsomateur.com\tests\RegistrationTest.php" tests="2" assertions="2" errors="0" warnings="0" failures="0" skipped="0" time="3.422904">
+        <testsuite name="App\Tests\RegistrationTest::testSuccessfulRegistration" tests="2" assertions="2" errors="0" warnings="0" failures="0" skipped="0" time="3.422904">
+          <testcase name="testSuccessfulRegistration with data set #0" class="App\Tests\RegistrationTest" classname="App.Tests.RegistrationTest" file="C:\Users\33605\Desktop\Adil\Wamp Server\T-Boileau\Defi_2-ProducteursAuConsommateur\producteurauconsomateur.com\tests\RegistrationTest.php" line="25" assertions="1" time="1.808940"/>
+          <testcase name="testSuccessfulRegistration with data set #1" class="App\Tests\RegistrationTest" classname="App.Tests.RegistrationTest" file="C:\Users\33605\Desktop\Adil\Wamp Server\T-Boileau\Defi_2-ProducteursAuConsommateur\producteurauconsomateur.com\tests\RegistrationTest.php" line="25" assertions="1" time="1.613964"/>
         </testsuite>
+      </testsuite>
+      <testsuite name="App\Tests\UpdateFarmTest" file="C:\Users\33605\Desktop\Adil\Wamp Server\T-Boileau\Defi_2-ProducteursAuConsommateur\producteurauconsomateur.com\tests\UpdateFarmTest.php" tests="1" assertions="1" errors="0" warnings="0" failures="0" skipped="0" time="2.588051">
+        <testcase name="testSuccessfulFarmUpdate" class="App\Tests\UpdateFarmTest" classname="App.Tests.UpdateFarmTest" file="C:\Users\33605\Desktop\Adil\Wamp Server\T-Boileau\Defi_2-ProducteursAuConsommateur\producteurauconsomateur.com\tests\UpdateFarmTest.php" line="22" assertions="1" time="2.588051"/>
       </testsuite>
     </testsuite>
   </testsuite>
