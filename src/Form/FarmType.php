@@ -21,6 +21,7 @@ class FarmType extends AbstractType
     {
         $builder
             ->add("name", TextType::class)
+            ->add("address", AddressType::class, ["label" => false])
             ->add("description", TextareaType::class);
     }
 
