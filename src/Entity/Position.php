@@ -31,7 +31,7 @@ class Position
      * Undocumented function
      *
      * @return float|null
-     */ 
+     */
     public function getLatitude(): ?float
     {
         return $this->latitude;
@@ -54,7 +54,7 @@ class Position
      * Undocumented function
      *
      * @return float|null
-     */ 
+     */
     public function getLongitude(): ?float
     {
         return $this->longitude;

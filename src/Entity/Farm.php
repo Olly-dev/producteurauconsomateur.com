@@ -128,7 +128,7 @@ class Farm
     /**
      *
      * @return Address|null
-     */ 
+     */
     public function getAddress(): ?Address
     {
         return $this->address;
