@@ -1,5 +1,16 @@
 {% extends "base.html.twig" %}
 
 {% block body %}
+    <div class="row">
+        <div class="col-12">
+            <div id="map"></div>
+        </div>
+    </div>
+{% endblock %}
 
+{% block javascripts %}
+    <script defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAAZ_eAq_bGWGcV7QQZOazoO8Uu9qWbM1o&callback=initMap">
+    </script>
+    {{ encore_entry_script_tags('index') }}
 {% endblock %}

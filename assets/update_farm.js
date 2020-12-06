@@ -38,7 +38,6 @@ class Map{
         map: this.map,
         title: "Mon exploitation",
       });
-
     }
     
     this.map.addListener("click", this.getPosition.bind(this));

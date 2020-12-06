@@ -177,4 +177,14 @@ class Product
 
         return $this;
     }
+
+    /**
+     * Undocumented function
+     *
+     * @return float
+     */
+    public function priceIncludingTaxes(): float
+    {
+        return ($this->price->getUnitPrice() * $this->price->getVat()) / 100;
+    }
 }
